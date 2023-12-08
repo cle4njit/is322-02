@@ -1,10 +1,10 @@
 import { User, columns } from './columns'
 import { DataTable } from '@/components/data-table'
-import Courseid from '../CourseID.json'
+import courseData  from '../CourseID.json'
 import inviteLink from '../CourseID.json'
 
 async function getCourseID(): Promise<User[]> {
-  return Courseid
+  return courseData 
 }
 
  async function Page() {
