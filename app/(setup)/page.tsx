@@ -20,7 +20,7 @@ const SetupPage = async () => {
         return redirect(`/servers/${server.id}`)
     }
 
-    // return redirect(`/Courses`)
+    return redirect(`/Courses`)
 
     return <InitialModal />
 }

@@ -17,6 +17,7 @@ import {
 export type User = {
  
   Courseid: string
+  inviteLink: string
   
 }
 
@@ -39,9 +40,13 @@ export const columns: ColumnDef<User>[] = [
     id: 'actions',
     cell: ({ row }) => {
       const user = row.original
-
+      const inviteLink = row.original
       return (
-        <Button variant='outline' className='ml-auto'>Join Server</Button>
+        <Button 
+         onClick = {() => {
+          navigator.clipboard.writeText(user.inviteLink.toString());
+         }}
+        variant='outline' className='ml-auto'>Copy Invite Link</Button>
       )
     }
   }

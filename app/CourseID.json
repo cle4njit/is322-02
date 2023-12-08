@@ -1,21 +1,27 @@
 [
     {
-      "Courseid": "IS117"
+      "Courseid": "IS117",
+      "inviteLink": "http://localhost:3000/invite/837b8602-cf5f-48de-bd27-be2d940e7200"
     },
     {
-      "Courseid": "IS218"
+      "Courseid": "IS218",
+      "inviteLink": "http://localhost:3000/invite/509a5c98-e95f-4a87-82c8-92c052ae52bf"
     },
     {
-      "Courseid": "IS219"
+      "Courseid": "IS219",
+      "inviteLink" : "http://localhost:3000/invite/630a9e78-4289-4325-9c28-e5df5b8ce37a"
     },
     {
-      "Courseid": "IS247"
+      "Courseid": "IS247",
+      "inviteLink": "http://localhost:3000/invite/7cba6169-6b8d-4ec6-9da5-20d029232680"
     },
     {
-      "Courseid": "IS265"
+      "Courseid": "IS265",
+      "inviteLink": "http://localhost:3000/invite/220eabb6-c710-4ada-852b-09da26c19898"
     },
     {
-      "Courseid": "IS322"
+      "Courseid": "IS322",
+      "inviteLink": "http://localhost:3000/invite/2596187c-5e9a-4da3-b33f-5334e4494ae1"
     },
     {
       "Courseid": "IS331"
